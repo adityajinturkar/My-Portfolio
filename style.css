@@ -1,0 +1,178 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #007BFF;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
+        border-bottom: 1px solid #444;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    main {
+        padding: 5px;
+    }
+}
+
+/* About section styles */
+.about-section {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Skills section styles */
+.skills-section {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.skills-section ul {
+    padding-left: 20px;
+}
+
+.skills-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Experience section styles */
+.experience-section {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.experience-item {
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Contact section styles */
+.contact-section {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact-section ul {
+    padding-left: 20px;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
